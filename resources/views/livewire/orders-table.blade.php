@@ -463,16 +463,6 @@
                         <td class="border border-gray-300 px-3 py-2 text-right">${totalPrice}</td>
                        <td class="border border-gray-300 px-3 py-2 text-center space-x-1">
                         <button
-                        class="bg-blue-600 text-white font-semibold px-4 py-2 rounded-md shadow-md
-                            hover:bg-blue-700 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400
-                            transition duration-300 ease-in-out mr-2"
-                        data-id="${item.id}"
-                        data-drinks_id="${item.drinks.id}"
-                        data-quantity="${item.quantity}"
-                        onclick="editOrderItem(this)">
-                        แก้ไข Order Item
-                    </button>
-                        <button
                             class="bg-yellow-500 text-white font-semibold px-4 py-2 rounded-md shadow-md
                                 hover:bg-yellow-600 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-yellow-400
                                 transition duration-300 ease-in-out mr-2"
